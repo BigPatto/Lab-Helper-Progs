@@ -59,7 +59,7 @@ if selection == 1:
 	for pair in list_for_EM_PAT:
 		total += (pair[1]*0.5) + (pair[1]* float(num))
 		print  '%s:' %(pair[0]), '%s' % (float (num)*float (pair[1]) + 0.5*float (pair[1]) ), 'ul\n'
-	print 'Total volume of EM_PAT master mix is:', total, 'ul\n'
+	print 'Total volume of EM_PAT master mix is:', total, 'ul (20 ul per tube)\n'
 
 
 if selection == 2:
@@ -78,7 +78,7 @@ if selection == 3:
 	for pair in list_for_EM_PAT_PCR:
 		total += (pair[1]*0.5) + (pair[1]* float(num))
 		print  '%s:' %(pair[0]), '%s' % (float (num)*float (pair[1]) + 0.5*float (pair[1]) ), 'ul\n'
-	print 'Total volume of EM PAT PCR master mix is:', total, 'ul\n'
+	print 'Total volume of EM PAT PCR master mix is:', total, 'ul (20 ul per tube)\n'
 
 
 #go_again = input('Would you like to do another assay?' '(y or n)')
