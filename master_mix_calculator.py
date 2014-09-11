@@ -48,8 +48,8 @@ while selection not in answers:
 	selection = get_assay()
 
 
-list_for_EM_PAT = [['RNA/dH20', 7], ['PAT assay primer', 1], ['dH2O', 4], ['5X SSIII buffer', 4], ['0.1M DTT', 1], ['dNTPs (10mM each)', 1], ['RnaseOut', 1], ['Klenow polymerase', 1]]
-list_for_T12VN_PAT = [['RNA/dH20', 7], ['T12VN PAT size control oligo (100 uM)', 1], ['dH2O', 4], ['5 x superscript reaction buffer; (Invitrogen)', 4], ['0.1M DTT', 1], ['dNTPs (10mM each)', 1], ['RnaseOut', 1]]
+list_for_EM_PAT = [ ['PAT assay primer', 1], ['dH2O', 4], ['5X SSIII buffer', 4], ['0.1M DTT', 1], ['dNTPs (10mM each)', 1], ['RnaseOut', 1], ['Klenow polymerase', 1]]
+list_for_T12VN_PAT = [['T12VN PAT size control oligo (100 uM)', 1], ['dH2O', 4], ['5 x superscript reaction buffer; (Invitrogen)', 4], ['0.1M DTT', 1], ['dNTPs (10mM each)', 1], ['RnaseOut', 1]]
 list_for_EM_PAT_PCR = [['Amplitaq Gold 360 Master Mix', 10], ['PAT-Assay oligos', 0.2], ['Gene of interest oligos', 0.2], ['diluted cDNA (EM-PAT & T12VN-PAT)', 5], ['dH2O', 4.6]]
 
 	
